@@ -7,16 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0622FE54C17BAA53B8D91103 /* Pods_AstronomyPictureOfTheDayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7541A94B970D564D789B28F7 /* Pods_AstronomyPictureOfTheDayTests.framework */; };
+		226E301448F3A65DF34ECCAC /* Pods_AstronomyPictureOfTheDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D423272570B02721AC1A70AD /* Pods_AstronomyPictureOfTheDay.framework */; };
+		2C4924FB9B8826F61B75B2EF /* Pods_AstronomyPictureOfTheDay_AstronomyPictureOfTheDayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5E4660198C66C0E896440F /* Pods_AstronomyPictureOfTheDay_AstronomyPictureOfTheDayUITests.framework */; };
 		6524C43A291D18B100CF3BE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C439291D18B100CF3BE7 /* AppDelegate.swift */; };
 		6524C43C291D18B100CF3BE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C43B291D18B100CF3BE7 /* SceneDelegate.swift */; };
-		6524C43E291D18B100CF3BE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C43D291D18B100CF3BE7 /* ViewController.swift */; };
 		6524C441291D18B100CF3BE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6524C43F291D18B100CF3BE7 /* Main.storyboard */; };
 		6524C444291D18B100CF3BE7 /* AstronomyPictureOfTheDay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6524C442291D18B100CF3BE7 /* AstronomyPictureOfTheDay.xcdatamodeld */; };
 		6524C446291D18B200CF3BE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6524C445291D18B200CF3BE7 /* Assets.xcassets */; };
 		6524C449291D18B200CF3BE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6524C447291D18B200CF3BE7 /* LaunchScreen.storyboard */; };
-		6524C454291D18B300CF3BE7 /* AstronomyPictureOfTheDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C453291D18B300CF3BE7 /* AstronomyPictureOfTheDayTests.swift */; };
 		6524C45E291D18B300CF3BE7 /* AstronomyPictureOfTheDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C45D291D18B300CF3BE7 /* AstronomyPictureOfTheDayUITests.swift */; };
 		6524C460291D18B300CF3BE7 /* AstronomyPictureOfTheDayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C45F291D18B300CF3BE7 /* AstronomyPictureOfTheDayUITestsLaunchTests.swift */; };
+		6524C477291D21BC00CF3BE7 /* PictureOfTheDayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C476291D21BC00CF3BE7 /* PictureOfTheDayVC.swift */; };
+		6524C479291D220800CF3BE7 /* FavoriteMediaListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C478291D220800CF3BE7 /* FavoriteMediaListVC.swift */; };
+		6524C47C291D23E900CF3BE7 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C47B291D23E900CF3BE7 /* Router.swift */; };
+		6524C47E291D240700CF3BE7 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C47D291D240700CF3BE7 /* NetworkRequest.swift */; };
+		6524C480291D242400CF3BE7 /* ParamEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C47F291D242400CF3BE7 /* ParamEncoding.swift */; };
+		6524C482291D243D00CF3BE7 /* APIEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C481291D243D00CF3BE7 /* APIEnvironment.swift */; };
+		6524C484291D244F00CF3BE7 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C483291D244F00CF3BE7 /* RequestBuilder.swift */; };
+		6524C487291D283700CF3BE7 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C486291D283700CF3BE7 /* StringExt.swift */; };
+		6524C489291D297600CF3BE7 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C488291D297600CF3BE7 /* AppConfiguration.swift */; };
+		6524C48C291D498F00CF3BE7 /* DateSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C48B291D498F00CF3BE7 /* DateSearchVC.swift */; };
+		6524C48E291D6BD400CF3BE7 /* PictureOfTheDayVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C48D291D6BD400CF3BE7 /* PictureOfTheDayVM.swift */; };
+		6524C490291D6EAA00CF3BE7 /* MediaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C48F291D6EAA00CF3BE7 /* MediaInfo.swift */; };
+		6524C497291D8F3200CF3BE7 /* PictureOfTheDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C495291D8F3200CF3BE7 /* PictureOfTheDayCell.swift */; };
+		6524C498291D8F3200CF3BE7 /* PictureOfTheDayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6524C496291D8F3200CF3BE7 /* PictureOfTheDayCell.xib */; };
+		6524C49A291D948C00CF3BE7 /* UITableViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C499291D948C00CF3BE7 /* UITableViewExt.swift */; };
+		6524C49C291D94B400CF3BE7 /* UITableViewCellExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C49B291D94B400CF3BE7 /* UITableViewCellExt.swift */; };
+		6524C49E291D94FE00CF3BE7 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C49D291D94FE00CF3BE7 /* ReusableView.swift */; };
+		6524C4A0291D951800CF3BE7 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C49F291D951800CF3BE7 /* NibLoadableView.swift */; };
+		6524C4A2291E404E00CF3BE7 /* PIctureOfTheDayAPIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C4A1291E404E00CF3BE7 /* PIctureOfTheDayAPIHandler.swift */; };
+		6524C4A4291E6B8300CF3BE7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C4A3291E6B8300CF3BE7 /* BaseViewController.swift */; };
+		6524C4A6291E6BF100CF3BE7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524C4A5291E6BF100CF3BE7 /* Constants.swift */; };
+		655330C4291FB7F9008296FE /* UDMediaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655330C3291FB7F9008296FE /* UDMediaRepository.swift */; };
+		655330C929201FD0008296FE /* MockRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655330C829201FD0008296FE /* MockRouter.swift */; };
+		655330CB2920223F008296FE /* ParamEncodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655330CA2920223F008296FE /* ParamEncodingTests.swift */; };
+		655330CD29202299008296FE /* RequestBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655330CC29202299008296FE /* RequestBuilderTests.swift */; };
+		655330D1292030F5008296FE /* DateSearchVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655330D0292030F5008296FE /* DateSearchVM.swift */; };
+		655330D4292032CE008296FE /* DateSearchVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655330D3292032CE008296FE /* DateSearchVMTests.swift */; };
+		655330D62920A955008296FE /* PictureOfTheDayVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655330D52920A955008296FE /* PictureOfTheDayVMTests.swift */; };
+		655330D82921078A008296FE /* FavoriteMediaListVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655330D72921078A008296FE /* FavoriteMediaListVMTests.swift */; };
+		658993F1291E98AD00F97C23 /* DateSearchVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658993F0291E98AD00F97C23 /* DateSearchVC.storyboard */; };
+		658993F5291EA1CF00F97C23 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658993F4291EA1CF00F97C23 /* Utilities.swift */; };
+		658993F8291F739100F97C23 /* CDPersistanceStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658993F7291F739100F97C23 /* CDPersistanceStorage.swift */; };
+		658993FB291F774100F97C23 /* PersistanceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658993FA291F774100F97C23 /* PersistanceProtocol.swift */; };
+		658993FD291F78A900F97C23 /* CDFavoriteMediaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658993FC291F78A900F97C23 /* CDFavoriteMediaRepository.swift */; };
+		658993FF291F8AEE00F97C23 /* FavoriteMediaListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658993FE291F8AEE00F97C23 /* FavoriteMediaListVM.swift */; };
+		65899402291F91ED00F97C23 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65899401291F91ED00F97C23 /* Localizable.strings */; };
+		65899404291FB46400F97C23 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65899403291FB46400F97C23 /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +75,64 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B5E4660198C66C0E896440F /* Pods_AstronomyPictureOfTheDay_AstronomyPictureOfTheDayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstronomyPictureOfTheDay_AstronomyPictureOfTheDayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6310FC5068107800904D5F4B /* Pods-AstronomyPictureOfTheDay-AstronomyPictureOfTheDayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstronomyPictureOfTheDay-AstronomyPictureOfTheDayUITests.release.xcconfig"; path = "Target Support Files/Pods-AstronomyPictureOfTheDay-AstronomyPictureOfTheDayUITests/Pods-AstronomyPictureOfTheDay-AstronomyPictureOfTheDayUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6524C436291D18B100CF3BE7 /* AstronomyPictureOfTheDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstronomyPictureOfTheDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6524C439291D18B100CF3BE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6524C43B291D18B100CF3BE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6524C43D291D18B100CF3BE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6524C440291D18B100CF3BE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6524C443291D18B100CF3BE7 /* AstronomyPictureOfTheDay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AstronomyPictureOfTheDay.xcdatamodel; sourceTree = "<group>"; };
 		6524C445291D18B200CF3BE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6524C448291D18B200CF3BE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6524C44A291D18B200CF3BE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6524C44F291D18B300CF3BE7 /* AstronomyPictureOfTheDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstronomyPictureOfTheDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6524C453291D18B300CF3BE7 /* AstronomyPictureOfTheDayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyPictureOfTheDayTests.swift; sourceTree = "<group>"; };
 		6524C459291D18B300CF3BE7 /* AstronomyPictureOfTheDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstronomyPictureOfTheDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6524C45D291D18B300CF3BE7 /* AstronomyPictureOfTheDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyPictureOfTheDayUITests.swift; sourceTree = "<group>"; };
 		6524C45F291D18B300CF3BE7 /* AstronomyPictureOfTheDayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyPictureOfTheDayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6524C476291D21BC00CF3BE7 /* PictureOfTheDayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureOfTheDayVC.swift; sourceTree = "<group>"; };
+		6524C478291D220800CF3BE7 /* FavoriteMediaListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteMediaListVC.swift; sourceTree = "<group>"; };
+		6524C47B291D23E900CF3BE7 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		6524C47D291D240700CF3BE7 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		6524C47F291D242400CF3BE7 /* ParamEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParamEncoding.swift; sourceTree = "<group>"; };
+		6524C481291D243D00CF3BE7 /* APIEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEnvironment.swift; sourceTree = "<group>"; };
+		6524C483291D244F00CF3BE7 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		6524C486291D283700CF3BE7 /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		6524C488291D297600CF3BE7 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		6524C48B291D498F00CF3BE7 /* DateSearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSearchVC.swift; sourceTree = "<group>"; };
+		6524C48D291D6BD400CF3BE7 /* PictureOfTheDayVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureOfTheDayVM.swift; sourceTree = "<group>"; };
+		6524C48F291D6EAA00CF3BE7 /* MediaInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaInfo.swift; sourceTree = "<group>"; };
+		6524C495291D8F3200CF3BE7 /* PictureOfTheDayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureOfTheDayCell.swift; sourceTree = "<group>"; };
+		6524C496291D8F3200CF3BE7 /* PictureOfTheDayCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PictureOfTheDayCell.xib; sourceTree = "<group>"; };
+		6524C499291D948C00CF3BE7 /* UITableViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExt.swift; sourceTree = "<group>"; };
+		6524C49B291D94B400CF3BE7 /* UITableViewCellExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellExt.swift; sourceTree = "<group>"; };
+		6524C49D291D94FE00CF3BE7 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		6524C49F291D951800CF3BE7 /* NibLoadableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		6524C4A1291E404E00CF3BE7 /* PIctureOfTheDayAPIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIctureOfTheDayAPIHandler.swift; sourceTree = "<group>"; };
+		6524C4A3291E6B8300CF3BE7 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6524C4A5291E6BF100CF3BE7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		655330C3291FB7F9008296FE /* UDMediaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDMediaRepository.swift; sourceTree = "<group>"; };
+		655330C829201FD0008296FE /* MockRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRouter.swift; sourceTree = "<group>"; };
+		655330CA2920223F008296FE /* ParamEncodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParamEncodingTests.swift; sourceTree = "<group>"; };
+		655330CC29202299008296FE /* RequestBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilderTests.swift; sourceTree = "<group>"; };
+		655330D0292030F5008296FE /* DateSearchVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSearchVM.swift; sourceTree = "<group>"; };
+		655330D3292032CE008296FE /* DateSearchVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSearchVMTests.swift; sourceTree = "<group>"; };
+		655330D52920A955008296FE /* PictureOfTheDayVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureOfTheDayVMTests.swift; sourceTree = "<group>"; };
+		655330D72921078A008296FE /* FavoriteMediaListVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteMediaListVMTests.swift; sourceTree = "<group>"; };
+		658993F0291E98AD00F97C23 /* DateSearchVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DateSearchVC.storyboard; sourceTree = "<group>"; };
+		658993F4291EA1CF00F97C23 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		658993F7291F739100F97C23 /* CDPersistanceStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDPersistanceStorage.swift; sourceTree = "<group>"; };
+		658993FA291F774100F97C23 /* PersistanceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceProtocol.swift; sourceTree = "<group>"; };
+		658993FC291F78A900F97C23 /* CDFavoriteMediaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDFavoriteMediaRepository.swift; sourceTree = "<group>"; };
+		658993FE291F8AEE00F97C23 /* FavoriteMediaListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteMediaListVM.swift; sourceTree = "<group>"; };
+		65899401291F91ED00F97C23 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		65899403291FB46400F97C23 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		7040BC146B5769FBCAE32F26 /* Pods-AstronomyPictureOfTheDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstronomyPictureOfTheDay.release.xcconfig"; path = "Target Support Files/Pods-AstronomyPictureOfTheDay/Pods-AstronomyPictureOfTheDay.release.xcconfig"; sourceTree = "<group>"; };
+		7541A94B970D564D789B28F7 /* Pods_AstronomyPictureOfTheDayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstronomyPictureOfTheDayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A385ACB4DC8F5B668834171B /* Pods-AstronomyPictureOfTheDayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstronomyPictureOfTheDayTests.release.xcconfig"; path = "Target Support Files/Pods-AstronomyPictureOfTheDayTests/Pods-AstronomyPictureOfTheDayTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACF42E935375D2450F42323A /* Pods-AstronomyPictureOfTheDay-AstronomyPictureOfTheDayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstronomyPictureOfTheDay-AstronomyPictureOfTheDayUITests.debug.xcconfig"; path = "Target Support Files/Pods-AstronomyPictureOfTheDay-AstronomyPictureOfTheDayUITests/Pods-AstronomyPictureOfTheDay-AstronomyPictureOfTheDayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF5343B9AEA3CB1E94BFCE66 /* Pods-AstronomyPictureOfTheDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstronomyPictureOfTheDay.debug.xcconfig"; path = "Target Support Files/Pods-AstronomyPictureOfTheDay/Pods-AstronomyPictureOfTheDay.debug.xcconfig"; sourceTree = "<group>"; };
+		D423272570B02721AC1A70AD /* Pods_AstronomyPictureOfTheDay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstronomyPictureOfTheDay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBED86632455098EA82D6301 /* Pods-AstronomyPictureOfTheDayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstronomyPictureOfTheDayTests.debug.xcconfig"; path = "Target Support Files/Pods-AstronomyPictureOfTheDayTests/Pods-AstronomyPictureOfTheDayTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				226E301448F3A65DF34ECCAC /* Pods_AstronomyPictureOfTheDay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0622FE54C17BAA53B8D91103 /* Pods_AstronomyPictureOfTheDayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C4924FB9B8826F61B75B2EF /* Pods_AstronomyPictureOfTheDay_AstronomyPictureOfTheDayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +170,8 @@
 				6524C452291D18B300CF3BE7 /* AstronomyPictureOfTheDayTests */,
 				6524C45C291D18B300CF3BE7 /* AstronomyPictureOfTheDayUITests */,
 				6524C437291D18B100CF3BE7 /* Products */,
+				E7BDF0020B7A72910D32A424 /* Pods */,
+				DF54905381C934BB85FB7C14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +188,13 @@
 		6524C438291D18B100CF3BE7 /* AstronomyPictureOfTheDay */ = {
 			isa = PBXGroup;
 			children = (
-				6524C439291D18B100CF3BE7 /* AppDelegate.swift */,
-				6524C43B291D18B100CF3BE7 /* SceneDelegate.swift */,
-				6524C43D291D18B100CF3BE7 /* ViewController.swift */,
-				6524C43F291D18B100CF3BE7 /* Main.storyboard */,
-				6524C445291D18B200CF3BE7 /* Assets.xcassets */,
-				6524C447291D18B200CF3BE7 /* LaunchScreen.storyboard */,
-				6524C44A291D18B200CF3BE7 /* Info.plist */,
-				6524C442291D18B100CF3BE7 /* AstronomyPictureOfTheDay.xcdatamodeld */,
+				6524C46C291D1B2D00CF3BE7 /* Application */,
+				6524C46E291D1BA000CF3BE7 /* Modules */,
+				6524C472291D1BDF00CF3BE7 /* Models */,
+				6524C485291D281500CF3BE7 /* Extensions */,
+				6524C470291D1BC900CF3BE7 /* Services */,
+				6524C46D291D1B8F00CF3BE7 /* AppUtils */,
+				6524C46F291D1BB600CF3BE7 /* Resources */,
 			);
 			path = AstronomyPictureOfTheDay;
 			sourceTree = "<group>";
@@ -116,7 +202,12 @@
 		6524C452291D18B300CF3BE7 /* AstronomyPictureOfTheDayTests */ = {
 			isa = PBXGroup;
 			children = (
-				6524C453291D18B300CF3BE7 /* AstronomyPictureOfTheDayTests.swift */,
+				6524C483291D244F00CF3BE7 /* RequestBuilder.swift */,
+				655330D229203210008296FE /* DateSearchTests */,
+				655330CF29202815008296FE /* FavoriteMediaTests */,
+				655330CE292027F7008296FE /* PictureOfTheDayTests */,
+				655330C629201F49008296FE /* NetworkLayerTests */,
+				655330C529201F20008296FE /* Utilities */,
 			);
 			path = AstronomyPictureOfTheDayTests;
 			sourceTree = "<group>";
@@ -130,6 +221,220 @@
 			path = AstronomyPictureOfTheDayUITests;
 			sourceTree = "<group>";
 		};
+		6524C46C291D1B2D00CF3BE7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				6524C439291D18B100CF3BE7 /* AppDelegate.swift */,
+				6524C43B291D18B100CF3BE7 /* SceneDelegate.swift */,
+				6524C488291D297600CF3BE7 /* AppConfiguration.swift */,
+				6524C4A3291E6B8300CF3BE7 /* BaseViewController.swift */,
+				6524C447291D18B200CF3BE7 /* LaunchScreen.storyboard */,
+				6524C43F291D18B100CF3BE7 /* Main.storyboard */,
+				6524C44A291D18B200CF3BE7 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		6524C46D291D1B8F00CF3BE7 /* AppUtils */ = {
+			isa = PBXGroup;
+			children = (
+				6524C49D291D94FE00CF3BE7 /* ReusableView.swift */,
+				6524C49F291D951800CF3BE7 /* NibLoadableView.swift */,
+				6524C4A5291E6BF100CF3BE7 /* Constants.swift */,
+				658993F4291EA1CF00F97C23 /* Utilities.swift */,
+				65899403291FB46400F97C23 /* Reachability.swift */,
+			);
+			path = AppUtils;
+			sourceTree = "<group>";
+		};
+		6524C46E291D1BA000CF3BE7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				6524C473291D1E8700CF3BE7 /* PictureOfTheDay */,
+				6524C48A291D495400CF3BE7 /* Search */,
+				6524C475291D1EC000CF3BE7 /* FavoriteMedia */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		6524C46F291D1BB600CF3BE7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65899400291F91D600F97C23 /* Strings */,
+				6524C445291D18B200CF3BE7 /* Assets.xcassets */,
+				6524C442291D18B100CF3BE7 /* AstronomyPictureOfTheDay.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6524C470291D1BC900CF3BE7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				658993F9291F76FB00F97C23 /* PersistanceService */,
+				6524C47A291D238200CF3BE7 /* NetworkService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6524C472291D1BDF00CF3BE7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6524C48F291D6EAA00CF3BE7 /* MediaInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6524C473291D1E8700CF3BE7 /* PictureOfTheDay */ = {
+			isa = PBXGroup;
+			children = (
+				6524C476291D21BC00CF3BE7 /* PictureOfTheDayVC.swift */,
+				6524C48D291D6BD400CF3BE7 /* PictureOfTheDayVM.swift */,
+				6524C495291D8F3200CF3BE7 /* PictureOfTheDayCell.swift */,
+				6524C496291D8F3200CF3BE7 /* PictureOfTheDayCell.xib */,
+				6524C4A1291E404E00CF3BE7 /* PIctureOfTheDayAPIHandler.swift */,
+			);
+			path = PictureOfTheDay;
+			sourceTree = "<group>";
+		};
+		6524C475291D1EC000CF3BE7 /* FavoriteMedia */ = {
+			isa = PBXGroup;
+			children = (
+				6524C478291D220800CF3BE7 /* FavoriteMediaListVC.swift */,
+				658993FE291F8AEE00F97C23 /* FavoriteMediaListVM.swift */,
+			);
+			path = FavoriteMedia;
+			sourceTree = "<group>";
+		};
+		6524C47A291D238200CF3BE7 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				6524C47B291D23E900CF3BE7 /* Router.swift */,
+				6524C47D291D240700CF3BE7 /* NetworkRequest.swift */,
+				6524C47F291D242400CF3BE7 /* ParamEncoding.swift */,
+				6524C481291D243D00CF3BE7 /* APIEnvironment.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		6524C485291D281500CF3BE7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6524C486291D283700CF3BE7 /* StringExt.swift */,
+				6524C499291D948C00CF3BE7 /* UITableViewExt.swift */,
+				6524C49B291D94B400CF3BE7 /* UITableViewCellExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6524C48A291D495400CF3BE7 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				6524C48B291D498F00CF3BE7 /* DateSearchVC.swift */,
+				655330D0292030F5008296FE /* DateSearchVM.swift */,
+				658993F0291E98AD00F97C23 /* DateSearchVC.storyboard */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		655330C2291FB7CE008296FE /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				655330C3291FB7F9008296FE /* UDMediaRepository.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		655330C529201F20008296FE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				655330C829201FD0008296FE /* MockRouter.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		655330C629201F49008296FE /* NetworkLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				655330CA2920223F008296FE /* ParamEncodingTests.swift */,
+				655330CC29202299008296FE /* RequestBuilderTests.swift */,
+			);
+			path = NetworkLayerTests;
+			sourceTree = "<group>";
+		};
+		655330CE292027F7008296FE /* PictureOfTheDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				655330D52920A955008296FE /* PictureOfTheDayVMTests.swift */,
+			);
+			path = PictureOfTheDayTests;
+			sourceTree = "<group>";
+		};
+		655330CF29202815008296FE /* FavoriteMediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				655330D72921078A008296FE /* FavoriteMediaListVMTests.swift */,
+			);
+			path = FavoriteMediaTests;
+			sourceTree = "<group>";
+		};
+		655330D229203210008296FE /* DateSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				655330D3292032CE008296FE /* DateSearchVMTests.swift */,
+			);
+			path = DateSearchTests;
+			sourceTree = "<group>";
+		};
+		658993F6291F735200F97C23 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				658993F7291F739100F97C23 /* CDPersistanceStorage.swift */,
+				658993FC291F78A900F97C23 /* CDFavoriteMediaRepository.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		658993F9291F76FB00F97C23 /* PersistanceService */ = {
+			isa = PBXGroup;
+			children = (
+				655330C2291FB7CE008296FE /* UserDefaults */,
+				658993F6291F735200F97C23 /* CoreData */,
+				658993FA291F774100F97C23 /* PersistanceProtocol.swift */,
+			);
+			path = PersistanceService;
+			sourceTree = "<group>";
+		};
+		65899400291F91D600F97C23 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				65899401291F91ED00F97C23 /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		DF54905381C934BB85FB7C14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D423272570B02721AC1A70AD /* Pods_AstronomyPictureOfTheDay.framework */,
+				3B5E4660198C66C0E896440F /* Pods_AstronomyPictureOfTheDay_AstronomyPictureOfTheDayUITests.framework */,
+				7541A94B970D564D789B28F7 /* Pods_AstronomyPictureOfTheDayTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7BDF0020B7A72910D32A424 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF5343B9AEA3CB1E94BFCE66 /* Pods-AstronomyPictureOfTheDay.debug.xcconfig */,
+				7040BC146B5769FBCAE32F26 /* Pods-AstronomyPictureOfTheDay.release.xcconfig */,
+				ACF42E935375D2450F42323A /* Pods-AstronomyPictureOfTheDay-AstronomyPictureOfTheDayUITests.debug.xcconfig */,
+				6310FC5068107800904D5F4B /* Pods-AstronomyPictureOfTheDay-AstronomyPictureOfTheDayUITests.release.xcconfig */,
+				FBED86632455098EA82D6301 /* Pods-AstronomyPictureOfTheDayTests.debug.xcconfig */,
+				A385ACB4DC8F5B668834171B /* Pods-AstronomyPictureOfTheDayTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +442,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6524C463291D18B300CF3BE7 /* Build configuration list for PBXNativeTarget "AstronomyPictureOfTheDay" */;
 			buildPhases = (
+				CE9C489914B7BD8AAB01DB79 /* [CP] Check Pods Manifest.lock */,
 				6524C432291D18B100CF3BE7 /* Sources */,
 				6524C433291D18B100CF3BE7 /* Frameworks */,
 				6524C434291D18B100CF3BE7 /* Resources */,
+				6BD85D7FC65F059B87BC6E1A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +461,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6524C466291D18B300CF3BE7 /* Build configuration list for PBXNativeTarget "AstronomyPictureOfTheDayTests" */;
 			buildPhases = (
+				F18C5E2EAF6547B14FF84649 /* [CP] Check Pods Manifest.lock */,
 				6524C44B291D18B300CF3BE7 /* Sources */,
 				6524C44C291D18B300CF3BE7 /* Frameworks */,
 				6524C44D291D18B300CF3BE7 /* Resources */,
@@ -172,9 +480,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6524C469291D18B300CF3BE7 /* Build configuration list for PBXNativeTarget "AstronomyPictureOfTheDayUITests" */;
 			buildPhases = (
+				8E901FAD26701066B3EDB7A1 /* [CP] Check Pods Manifest.lock */,
 				6524C455291D18B300CF3BE7 /* Sources */,
 				6524C456291D18B300CF3BE7 /* Frameworks */,
 				6524C457291D18B300CF3BE7 /* Resources */,
+				4F9E2F7C0174D40FB461DBFF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,6 +511,7 @@
 					};
 					6524C44E291D18B300CF3BE7 = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 						TestTargetID = 6524C435291D18B100CF3BE7;
 					};
 					6524C458291D18B300CF3BE7 = {
@@ -234,9 +545,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6524C498291D8F3200CF3BE7 /* PictureOfTheDayCell.xib in Resources */,
+				65899402291F91ED00F97C23 /* Localizable.strings in Resources */,
 				6524C449291D18B200CF3BE7 /* LaunchScreen.storyboard in Resources */,
 				6524C446291D18B200CF3BE7 /* Assets.xcassets in Resources */,
 				6524C441291D18B100CF3BE7 /* Main.storyboard in Resources */,
+				658993F1291E98AD00F97C23 /* DateSearchVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +570,145 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F9E2F7C0174D40FB461DBFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstronomyPictureOfTheDay-AstronomyPictureOfTheDayUITests/Pods-AstronomyPictureOfTheDay-AstronomyPictureOfTheDayUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstronomyPictureOfTheDay-AstronomyPictureOfTheDayUITests/Pods-AstronomyPictureOfTheDay-AstronomyPictureOfTheDayUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AstronomyPictureOfTheDay-AstronomyPictureOfTheDayUITests/Pods-AstronomyPictureOfTheDay-AstronomyPictureOfTheDayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BD85D7FC65F059B87BC6E1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstronomyPictureOfTheDay/Pods-AstronomyPictureOfTheDay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstronomyPictureOfTheDay/Pods-AstronomyPictureOfTheDay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AstronomyPictureOfTheDay/Pods-AstronomyPictureOfTheDay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E901FAD26701066B3EDB7A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AstronomyPictureOfTheDay-AstronomyPictureOfTheDayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE9C489914B7BD8AAB01DB79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AstronomyPictureOfTheDay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F18C5E2EAF6547B14FF84649 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AstronomyPictureOfTheDayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6524C432291D18B100CF3BE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6524C43E291D18B100CF3BE7 /* ViewController.swift in Sources */,
+				655330C4291FB7F9008296FE /* UDMediaRepository.swift in Sources */,
+				6524C47E291D240700CF3BE7 /* NetworkRequest.swift in Sources */,
+				6524C48C291D498F00CF3BE7 /* DateSearchVC.swift in Sources */,
+				6524C487291D283700CF3BE7 /* StringExt.swift in Sources */,
+				6524C48E291D6BD400CF3BE7 /* PictureOfTheDayVM.swift in Sources */,
+				6524C49A291D948C00CF3BE7 /* UITableViewExt.swift in Sources */,
+				6524C4A2291E404E00CF3BE7 /* PIctureOfTheDayAPIHandler.swift in Sources */,
+				6524C4A6291E6BF100CF3BE7 /* Constants.swift in Sources */,
+				65899404291FB46400F97C23 /* Reachability.swift in Sources */,
+				655330D1292030F5008296FE /* DateSearchVM.swift in Sources */,
+				6524C497291D8F3200CF3BE7 /* PictureOfTheDayCell.swift in Sources */,
+				658993FB291F774100F97C23 /* PersistanceProtocol.swift in Sources */,
 				6524C444291D18B100CF3BE7 /* AstronomyPictureOfTheDay.xcdatamodeld in Sources */,
+				658993F8291F739100F97C23 /* CDPersistanceStorage.swift in Sources */,
 				6524C43A291D18B100CF3BE7 /* AppDelegate.swift in Sources */,
+				6524C479291D220800CF3BE7 /* FavoriteMediaListVC.swift in Sources */,
 				6524C43C291D18B100CF3BE7 /* SceneDelegate.swift in Sources */,
+				6524C490291D6EAA00CF3BE7 /* MediaInfo.swift in Sources */,
+				6524C49C291D94B400CF3BE7 /* UITableViewCellExt.swift in Sources */,
+				6524C4A4291E6B8300CF3BE7 /* BaseViewController.swift in Sources */,
+				6524C489291D297600CF3BE7 /* AppConfiguration.swift in Sources */,
+				6524C484291D244F00CF3BE7 /* RequestBuilder.swift in Sources */,
+				6524C49E291D94FE00CF3BE7 /* ReusableView.swift in Sources */,
+				6524C47C291D23E900CF3BE7 /* Router.swift in Sources */,
+				6524C4A0291D951800CF3BE7 /* NibLoadableView.swift in Sources */,
+				6524C480291D242400CF3BE7 /* ParamEncoding.swift in Sources */,
+				658993FD291F78A900F97C23 /* CDFavoriteMediaRepository.swift in Sources */,
+				658993FF291F8AEE00F97C23 /* FavoriteMediaListVM.swift in Sources */,
+				6524C477291D21BC00CF3BE7 /* PictureOfTheDayVC.swift in Sources */,
+				658993F5291EA1CF00F97C23 /* Utilities.swift in Sources */,
+				6524C482291D243D00CF3BE7 /* APIEnvironment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +716,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6524C454291D18B300CF3BE7 /* AstronomyPictureOfTheDayTests.swift in Sources */,
+				655330D4292032CE008296FE /* DateSearchVMTests.swift in Sources */,
+				655330D82921078A008296FE /* FavoriteMediaListVMTests.swift in Sources */,
+				655330CD29202299008296FE /* RequestBuilderTests.swift in Sources */,
+				655330D62920A955008296FE /* PictureOfTheDayVMTests.swift in Sources */,
+				655330CB2920223F008296FE /* ParamEncodingTests.swift in Sources */,
+				655330C929201FD0008296FE /* MockRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +887,7 @@
 		};
 		6524C464291D18B300CF3BE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF5343B9AEA3CB1E94BFCE66 /* Pods-AstronomyPictureOfTheDay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,7 +895,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BZCY6Y4SD9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AstronomyPictureOfTheDay/Info.plist;
+				INFOPLIST_FILE = AstronomyPictureOfTheDay/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -466,6 +916,7 @@
 		};
 		6524C465291D18B300CF3BE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7040BC146B5769FBCAE32F26 /* Pods-AstronomyPictureOfTheDay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,7 +924,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BZCY6Y4SD9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AstronomyPictureOfTheDay/Info.plist;
+				INFOPLIST_FILE = AstronomyPictureOfTheDay/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -494,9 +945,11 @@
 		};
 		6524C467291D18B300CF3BE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBED86632455098EA82D6301 /* Pods-AstronomyPictureOfTheDayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BZCY6Y4SD9;
@@ -511,6 +964,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Sunil-Sharma.AstronomyPictureOfTheDayTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstronomyPictureOfTheDay.app/AstronomyPictureOfTheDay";
@@ -519,9 +974,11 @@
 		};
 		6524C468291D18B300CF3BE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A385ACB4DC8F5B668834171B /* Pods-AstronomyPictureOfTheDayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BZCY6Y4SD9;
@@ -536,6 +993,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Sunil-Sharma.AstronomyPictureOfTheDayTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstronomyPictureOfTheDay.app/AstronomyPictureOfTheDay";
@@ -544,6 +1002,7 @@
 		};
 		6524C46A291D18B300CF3BE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACF42E935375D2450F42323A /* Pods-AstronomyPictureOfTheDay-AstronomyPictureOfTheDayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -567,6 +1026,7 @@
 		};
 		6524C46B291D18B300CF3BE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6310FC5068107800904D5F4B /* Pods-AstronomyPictureOfTheDay-AstronomyPictureOfTheDayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

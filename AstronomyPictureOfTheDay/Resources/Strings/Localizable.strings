@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  AstronomyPictureOfTheDay
+
+  Created by Sunil Sharma on 12/11/22.
+  
+*/
+
+"Failed to load data" = "Failed to load data from cache!";
+"Favorite astronomy picture" = "Favorite astronomy picture list is empty!";
+"Lets explore the universe" = "Lets explore the universe";

@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_AstronomyPictureOfTheDay_AstronomyPictureOfTheDayUITests : NSObject
+@end
+@implementation PodsDummy_Pods_AstronomyPictureOfTheDay_AstronomyPictureOfTheDayUITests
+@end

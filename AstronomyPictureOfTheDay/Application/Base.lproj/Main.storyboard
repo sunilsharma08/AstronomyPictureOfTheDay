@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WMH-fw-QPc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Favorite-->
+        <scene sceneID="xHv-1l-RcK">
+            <objects>
+                <viewController id="ws7-Nt-xZa" customClass="FavoriteMediaListVC" customModule="AstronomyPictureOfTheDay" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rf3-e1-aJl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Favorite Astronomy" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5bI-LP-IbO">
+                                <rect key="frame" x="20" y="435.5" width="374" height="25.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="rLd-1b-hF7">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ozi-gE-vgf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rLd-1b-hF7" firstAttribute="bottom" secondItem="Ozi-gE-vgf" secondAttribute="bottom" id="HrP-83-klM"/>
+                            <constraint firstItem="rLd-1b-hF7" firstAttribute="top" secondItem="Ozi-gE-vgf" secondAttribute="top" id="Wb4-qj-jN0"/>
+                            <constraint firstItem="5bI-LP-IbO" firstAttribute="centerY" secondItem="Rf3-e1-aJl" secondAttribute="centerY" id="Z6G-F5-XYM"/>
+                            <constraint firstItem="rLd-1b-hF7" firstAttribute="leading" secondItem="Ozi-gE-vgf" secondAttribute="leading" id="ebO-vZ-NFI"/>
+                            <constraint firstItem="rLd-1b-hF7" firstAttribute="trailing" secondItem="Ozi-gE-vgf" secondAttribute="trailing" id="jDf-Ig-CRJ"/>
+                            <constraint firstItem="Ozi-gE-vgf" firstAttribute="trailing" secondItem="5bI-LP-IbO" secondAttribute="trailing" constant="20" id="x1w-dW-Osc"/>
+                            <constraint firstItem="5bI-LP-IbO" firstAttribute="leading" secondItem="Ozi-gE-vgf" secondAttribute="leading" constant="20" id="za6-4O-Hd2"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Favorite" id="bM4-Eu-poM"/>
+                    <connections>
+                        <outlet property="emptyMsgLabel" destination="5bI-LP-IbO" id="RDK-KG-nQt"/>
+                        <outlet property="favMediaTableView" destination="rLd-1b-hF7" id="ume-nE-3ZB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Prz-48-Cms" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1386.9565217391305" y="174.77678571428569"/>
+        </scene>
+        <!--Picture of the Day-->
+        <scene sceneID="w7f-uB-AWq">
+            <objects>
+                <viewController id="MET-BQ-PDF" customClass="PictureOfTheDayVC" customModule="AstronomyPictureOfTheDay" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="REJ-na-kFI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="cWs-ce-wkm">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdo-HR-Oiq">
+                                <rect key="frame" x="20" y="448" width="374" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Qcg-e7-crX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cWs-ce-wkm" firstAttribute="bottom" secondItem="Qcg-e7-crX" secondAttribute="bottom" id="H4f-KN-Ken"/>
+                            <constraint firstItem="cWs-ce-wkm" firstAttribute="top" secondItem="Qcg-e7-crX" secondAttribute="top" id="YaE-RA-WTv"/>
+                            <constraint firstItem="xdo-HR-Oiq" firstAttribute="centerY" secondItem="REJ-na-kFI" secondAttribute="centerY" id="e8X-bZ-9ub"/>
+                            <constraint firstItem="cWs-ce-wkm" firstAttribute="trailing" secondItem="Qcg-e7-crX" secondAttribute="trailing" id="ej4-em-NZS"/>
+                            <constraint firstItem="cWs-ce-wkm" firstAttribute="leading" secondItem="Qcg-e7-crX" secondAttribute="leading" id="fEL-fO-rVb"/>
+                            <constraint firstItem="Qcg-e7-crX" firstAttribute="trailing" secondItem="xdo-HR-Oiq" secondAttribute="trailing" constant="20" id="oj4-n8-nSk"/>
+                            <constraint firstItem="xdo-HR-Oiq" firstAttribute="leading" secondItem="Qcg-e7-crX" secondAttribute="leading" constant="20" id="wPv-tx-Fpe"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Picture of the Day" id="kqo-Z7-dH2"/>
+                    <connections>
+                        <outlet property="emptyMsgLabel" destination="xdo-HR-Oiq" id="tld-L4-p2l"/>
+                        <outlet property="potdTableView" destination="cWs-ce-wkm" id="m7f-Bj-EIw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sG0-f6-yE6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1386.9565217391305" y="-563.16964285714278"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="xfS-vK-Lby">
+            <objects>
+                <tabBarController id="WMH-fw-QPc" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hvS-OI-pNy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.082352941176470587" green="0.53725490196078429" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.08235294118" green="0.53725490200000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="unselectedItemTintColor">
+                                <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Sbb-b0-4on" kind="relationship" relationship="viewControllers" id="wi5-lW-G8v"/>
+                        <segue destination="tmk-KI-nON" kind="relationship" relationship="viewControllers" id="iXd-9w-AQ0"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TLr-Hm-9g9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-412" y="-173"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="0ap-eO-jpW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Sbb-b0-4on" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="home-icon" id="kEg-L8-XMt"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="n9a-fJ-p0Q">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="MET-BQ-PDF" kind="relationship" relationship="rootViewController" id="81E-Yf-dAG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yr4-yC-OeT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="476.81159420289856" y="-563.16964285714278"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="y9r-fd-BwX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tmk-KI-nON" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" systemItem="favorites" id="j8v-bc-3Pc"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4pA-aP-t88">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ws7-Nt-xZa" kind="relationship" relationship="rootViewController" id="lx9-5L-xFe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GQp-zr-8Ig" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="476.81159420289856" y="174.77678571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="home-icon" width="25" height="25"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

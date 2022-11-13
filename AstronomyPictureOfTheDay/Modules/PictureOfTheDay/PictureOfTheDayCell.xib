@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="386" id="KGk-i7-Jjw" customClass="PictureOfTheDayCell" customModule="AstronomyPictureOfTheDay" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="386"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="386"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lb2-zd-R0C">
+                        <rect key="frame" x="16" y="16" width="288" height="21"/>
+                        <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="21"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SJU-zf-FoF">
+                        <rect key="frame" x="16" y="45" width="288" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oBX-VD-Sep">
+                        <rect key="frame" x="16" y="70" width="288" height="250"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="250" id="ylY-Di-Y2E"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gb9-5C-Udu">
+                        <rect key="frame" x="16" y="336" width="288" height="23"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ifh-x7-30e">
+                        <rect key="frame" x="254" y="270" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="c23-Fb-yk9"/>
+                            <constraint firstAttribute="width" constant="50" id="f4G-lk-0Hs"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="star.fill" catalog="system">
+                            <directionalEdgeInsets key="contentInsets" top="16" leading="16" bottom="16" trailing="16"/>
+                        </buttonConfiguration>
+                        <connections>
+                            <action selector="favoriteButtonPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="RVp-7W-6gi"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Gb9-5C-Udu" firstAttribute="top" secondItem="oBX-VD-Sep" secondAttribute="bottom" constant="16" id="3ek-Qt-M63"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Gb9-5C-Udu" secondAttribute="bottom" constant="16" id="FxQ-xp-UP7"/>
+                    <constraint firstItem="lb2-zd-R0C" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="Glg-Rz-qPj"/>
+                    <constraint firstAttribute="trailing" secondItem="lb2-zd-R0C" secondAttribute="trailing" constant="16" id="IJE-7R-i2o"/>
+                    <constraint firstItem="SJU-zf-FoF" firstAttribute="top" secondItem="lb2-zd-R0C" secondAttribute="bottom" constant="8" id="Ogb-1Q-Tvx"/>
+                    <constraint firstAttribute="trailing" secondItem="Gb9-5C-Udu" secondAttribute="trailing" constant="16" id="PJo-Pu-9AU"/>
+                    <constraint firstItem="oBX-VD-Sep" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="ScJ-W5-Ww1"/>
+                    <constraint firstItem="lb2-zd-R0C" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="TBg-Ud-NYU"/>
+                    <constraint firstItem="oBX-VD-Sep" firstAttribute="top" secondItem="SJU-zf-FoF" secondAttribute="bottom" constant="8" id="TeU-Rr-hSh"/>
+                    <constraint firstItem="Ifh-x7-30e" firstAttribute="trailing" secondItem="oBX-VD-Sep" secondAttribute="trailing" id="Y8q-11-fA3"/>
+                    <constraint firstItem="SJU-zf-FoF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="iav-v0-Cgk"/>
+                    <constraint firstItem="Gb9-5C-Udu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="iwv-G0-Gyf"/>
+                    <constraint firstAttribute="trailing" secondItem="oBX-VD-Sep" secondAttribute="trailing" constant="16" id="sRk-N6-7cz"/>
+                    <constraint firstAttribute="trailing" secondItem="SJU-zf-FoF" secondAttribute="trailing" constant="16" id="xzb-eg-142"/>
+                    <constraint firstItem="Ifh-x7-30e" firstAttribute="bottom" secondItem="oBX-VD-Sep" secondAttribute="bottom" id="yO4-7c-YjG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dateLabel" destination="SJU-zf-FoF" id="1mO-6i-QLX"/>
+                <outlet property="explanationLabel" destination="Gb9-5C-Udu" id="Mgr-Mc-ORY"/>
+                <outlet property="favoriteButton" destination="Ifh-x7-30e" id="ADC-7P-RKz"/>
+                <outlet property="thumnailImageView" destination="oBX-VD-Sep" id="7Hs-jW-a1b"/>
+                <outlet property="titleLabel" destination="lb2-zd-R0C" id="5Lb-p1-OK8"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="124.55357142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
+    </resources>
+</document>

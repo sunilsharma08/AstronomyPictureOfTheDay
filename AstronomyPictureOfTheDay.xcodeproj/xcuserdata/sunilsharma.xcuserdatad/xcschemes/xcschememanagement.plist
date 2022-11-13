@@ -7,7 +7,20 @@
 		<key>AstronomyPictureOfTheDay.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6524C435291D18B100CF3BE7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6524C44E291D18B300CF3BE7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
